@@ -174,7 +174,8 @@ p {
 /*-------------------------------------------*/
 
 .notion-collection-gallery {
-    display: grid !important;
+    display: flex !important;
+    flex-cirection: column;
     border: none !important;
 }
 
@@ -227,7 +228,7 @@ p {
 }
 
 .notion-collection-card__content {
-    align-items: flex-end !important;
+    align-items: flex-start !important;
     grid-column-start: 2 !important;
     grid-row-start: 1 !important;
     font-size: 1.035em !important;

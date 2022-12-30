@@ -151,12 +151,12 @@ h3 {
 p {
     font-family: 'Inconsolata';
     font-weight: 200 !important;
-    font-size: 1.05em !important;
-    line-height: 1.24em !important;
+    font-size: 1.04em !important;
+    line-height: 1.22em !important;
 }
 
 .notion-text {
-    min-height: calc(1.5rem) !important; 
+    min-height: calc(1.22rem) !important; 
 }
 
 .notion-root > .notion-link {
@@ -174,7 +174,7 @@ p {
 /*-------------------------------------------*/
 
 .notion-collection-gallery {
-    display: block !important;
+    display: grid !important;
     border: none !important;
 }
 
@@ -223,14 +223,14 @@ p {
     font-family: var(--font) !important;
     grid-column-start: 2 !important;
     grid-row-start: 1 !important;
-    font-size: 24px !important;
+    font-size: 1.1em !important;
 }
 
 .notion-collection-card__content {
     align-items: flex-end !important;
     grid-column-start: 2 !important;
     grid-row-start: 1 !important;
-    font-size: 14px !important;
+    font-size: 1.035em !important;
     opacity: 0.6 !important;
 }
 

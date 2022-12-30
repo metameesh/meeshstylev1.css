@@ -130,9 +130,10 @@ h1, h2, h3 {
 
 h1 {
     font-family: 'Unbounded';
-    margin-top: 1.5em !important;
+    margin-top: 0.5em !important;
     margin-bottom: 0.75em !important;
-    font-size: 2.5em !important;
+    font-size: 3em !important;
+    line-height: 1.45em;
 }
 
 h2 {

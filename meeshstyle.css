@@ -8,7 +8,7 @@ Meesh Template
 /*------------------ FONTS ------------------*/
 /*-------------------------------------------*/
 
-@import url(https://fonts.googleapis.com/css?family=Unbounded:400|Work+Sans);
+@import url(https://fonts.googleapis.com/css?family=Syne:700|Work+Sans);
 
 /*-------------------------------------------*/
 /*---------------- VARIABLES ----------------*/
@@ -28,7 +28,7 @@ Meesh Template
 
     --transition: all .3s cubic-bezier(0.8,0.04,0.4,1) !important;
     --column-spacing: 30px !important;
-    --font: 'Unbounded', sans-serif !important;
+    --font: 'Syne', sans-serif !important;
 }
 
 /*-------------------------------------------*/
@@ -98,12 +98,12 @@ html {
 }
 
 .super-content.max-width {
-	max-width: 1000px !important;
-	margin-bottom: min(200px,20%) !important;
+	max-width: 1000 !important;
+	margin-bottom: min(400px,150%) !important;
 }
 
 .footer.super-content.max-width {
-    margin-bottom:0px !important;
+    margin-bottom: 0px !important;
 }
 
 /*-------------------------------------------*/
@@ -124,12 +124,13 @@ html {
 /*-------------------------------------------*/
 
 h1, h2, h3 {
-    font-family: 'Unbounded' !important;
+    font-family: 'Syne' !important;
     font-weight: 0 !important;
 }
 
 h1 {
-    font-family: 'Unbounded';
+    font-family: 'Syne';
+    text-transform: ;
     margin-top: 20px !important;
     margin-bottom: 10px !important;
     font-size: 50px !important;
@@ -137,13 +138,13 @@ h1 {
 }
 
 h2 {
-    font-family: 'Unbounded';
+    font-family: 'Syne';
     font-size: 30px !important;
     margin-bottom: 20px !important;
 }
 
 h3 {
-    font-family: 'Unbounded';
+    font-family: 'Syne';
     font-size: 20 !important;
     margin-bottom: 12px !important;
 }

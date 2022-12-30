@@ -92,7 +92,7 @@ html {
 }
 
 .notion-divider {
-    border-bottom: 0.3em solid var(--color-border-default) !important;
+    border-bottom: 0.05em solid var(--color-border-default) !important;
 }
 
 .notion-image,

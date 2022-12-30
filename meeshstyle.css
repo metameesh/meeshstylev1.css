@@ -8,7 +8,7 @@ Meesh Template
 /*------------------ FONTS ------------------*/
 /*-------------------------------------------*/
 
-@import url(https://fonts.googleapis.com/css?family=Unbounded:400|Space+Grotesk);
+@import url(https://fonts.googleapis.com/css?family=Unbounded:400|Work+Sans);
 
 /*-------------------------------------------*/
 /*---------------- VARIABLES ----------------*/
@@ -69,6 +69,29 @@ body {
     padding: 0 0 60px !important;
 }
 
+@keyframes fadeInLeft { 0% { transform: translate3d(-40px,0,0); } 100% { transform: translate3d(0,0,0); } }
+@-moz-keyframes fadeInLeft { 0% { transform: translate3d(-40px,0,0); } 100% { transform: translate3d(0,0,0); } }
+@-webkit-keyframes fadeInLeft { 0% { transform: translate3d(-40px,0,0); } 100% { transform: translate3d(0,0,0); } }
+
+.notion-column-list {
+    align-items: center !important;
+}
+
+.notion-divider {
+    border-bottom: 1px solid var(--color-border-default) !important;
+}
+
+.notion-image,
+.notion-image div {
+    overflow: visible !important;
+}
+
+.notion-image img {
+    box-shadow: var(--shadow-lg) !important;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
 html {
 	min-height: 100%;
 	position: relative;
@@ -81,29 +104,6 @@ html {
 
 .footer.super-content.max-width {
     margin-bottom:0px !important;
-}
-
-@keyframes fadeInLeft { 0% { transform: translate3d(-40px,0,0); } 100% { transform: translate3d(0,0,0); } }
-@-moz-keyframes fadeInLeft { 0% { transform: translate3d(-40px,0,0); } 100% { transform: translate3d(0,0,0); } }
-@-webkit-keyframes fadeInLeft { 0% { transform: translate3d(-40px,0,0); } 100% { transform: translate3d(0,0,0); } }
-
-.notion-column-list {
-    align-items: center !important;
-}
-
-.notion-divider {
-    border-bottom: 0.05em solid var(--color-border-default) !important;
-}
-
-.notion-image,
-.notion-image div {
-    overflow: visible !important;
-}
-
-.notion-image img {
-    box-shadow: var(--shadow-lg) !important;
-    border-radius: 8px;
-    overflow: hidden;
 }
 
 /*-------------------------------------------*/
@@ -125,34 +125,34 @@ html {
 
 h1, h2, h3 {
     font-family: 'Unbounded' !important;
-    font-weight: 500 !important;
+    font-weight: 0 !important;
 }
 
 h1 {
     font-family: 'Unbounded';
-    margin-top: 0.5em !important;
-    margin-bottom: 0.5em !important;
-    font-size: 3em !important;
-    line-height: 1.45em;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+    font-size: 50px !important;
+    line-height: 60px;
 }
 
 h2 {
     font-family: 'Unbounded';
-    font-size: 1.6em !important;
-    margin-bottom: 0.5em !important;
+    font-size: 30px !important;
+    margin-bottom: 20px !important;
 }
 
 h3 {
     font-family: 'Unbounded';
-    font-size: 1.2em !important;
-    margin-top: 1.4em !important;
+    font-size: 20 !important;
+    margin-bottom: 12px !important;
 }
 
 p {
-    font-family: 'Space Grotesk';
+    font-family: 'Work Sans';
     font-weight: 200 !important;
-    font-size: 1.04em !important;
-    line-height: 1.22em !important;
+    font-size: 16 !important;
+    line-height: 1.5 !important;
 }
 
 .notion-text {
@@ -180,14 +180,14 @@ p {
 }
 
 .notion-collection__header {
-    font-size: 1.6em !important;
+    font-size: 30px !important;
 }
 
 .notion-collection-card {
     grid-template-columns: min-content !important;
     transition: var(--transition) !important;
     padding-bottom: 30px !important;
-    align-items: left !important;
+    align-items: center !important;
     overflow: visible !important;
     border-radius: 0 !important;
     box-shadow: none !important;
@@ -217,21 +217,21 @@ p {
 
 .notion-property__title,
 .notion-collection-card__content {
-    margin: 0em !important;
+    margin: 0 !important;
 }
 
 .notion-property__title {
     font-family: var(--font) !important;
     grid-column-start: 2 !important;
     grid-row-start: 1 !important;
-    font-size: 1.1em !important;
+    font-size: 24px !important;
 }
 
 .notion-collection-card__content {
     align-items: flex-start !important;
     grid-column-start: 2 !important;
     grid-row-start: 1 !important;
-    font-size: 1.035em !important;
+    font-size: 14px !important;
     opacity: 0.6 !important;
 }
 

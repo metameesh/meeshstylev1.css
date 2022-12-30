@@ -217,7 +217,7 @@ p {
 
 .notion-property__title,
 .notion-collection-card__content {
-    padding: 4em !important;
+    margin: 4em !important;
 }
 
 .notion-property__title {

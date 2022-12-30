@@ -8,7 +8,7 @@ Meesh Template
 /*------------------ FONTS ------------------*/
 /*-------------------------------------------*/
 
-@import url(https://fonts.googleapis.com/css?family=Unbounded:400|Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Unbounded:400|Space+Grotesk);
 
 /*-------------------------------------------*/
 /*---------------- VARIABLES ----------------*/
@@ -149,7 +149,7 @@ h3 {
 }
 
 p {
-    font-family: 'Inconsolata';
+    font-family: 'Space Grotesk';
     font-weight: 200 !important;
     font-size: 1.04em !important;
     line-height: 1.22em !important;

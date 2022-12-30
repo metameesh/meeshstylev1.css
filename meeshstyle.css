@@ -107,15 +107,15 @@ html {
 }
 
 @media (max-width: 972px) {
-    .notion-header {
+    h1.notion-heading {
       margin-top: 3em !important;
       margin-bottom: 0em !important;
     }
   }
 
 @media (max-width:750px) {
-	[id*="index"] h1.notion-header__title,
-	[id*="downloads"] h1.notion-header__title {
+	[id*="index"] h1.notion-heading,
+	[id*="downloads"] h1.notion-heading {
 		font-size: 2em !important;
         margin-bottom: 0em !important;
 	}
@@ -130,7 +130,7 @@ html {
 /*-------------------------------------------*/
 
 .notion-property__title__icon-wrapper,
-.notion-header__content,
+#block-025d33b7f85c47519f6c4d60e0383ae7;
 .notion-toggle.bg-brown,
 .notion-callout__icon,
 .notion-page__icon,

@@ -175,7 +175,7 @@ p {
 
 .notion-collection-gallery {
     display: flex !important;
-    flex-cirection: column;
+    flex-direction: column;
     border: none !important;
 }
 

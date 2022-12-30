@@ -187,7 +187,7 @@ p {
     grid-template-columns: min-content !important;
     transition: var(--transition) !important;
     padding-bottom: 30px !important;
-    align-items: center !important;
+    align-items: left !important;
     overflow: visible !important;
     border-radius: 0 !important;
     box-shadow: none !important;

@@ -125,6 +125,11 @@ html {
 	}
 }
 
+@media all and (max-width:480px) {
+    [id*="index"] h1.notion-header__title, h1#block-4ff286a66c5b45498a24d1cb28e8f518 {
+      display:none;
+    }
+
 /*-------------------------------------------*/
 /*-------------- HIDDEN CONTENT -------------*/
 /*-------------------------------------------*/

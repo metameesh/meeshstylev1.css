@@ -64,7 +64,7 @@ body {
 }
 
 .max-width {
-    max-width: 85% !important;
+    max-width: 100% !important;
     width: 600px !important;
     padding: 0 !important;
 }

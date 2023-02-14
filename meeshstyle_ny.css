@@ -65,9 +65,9 @@ body {
 
 .max-width {
     max-width: 100% !important;
-    width: 600px !important;
+    width: 1200px !important;
     padding: 20px !important;
-    margin: 30px !important;
+    margin: 10px !important;
 }
 
 .super-content {

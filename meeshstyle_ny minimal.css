@@ -246,17 +246,18 @@ p {
 
 .notion-callout {
     background: #50897b !important;
+    color: #fff !important;
     transition: var(--transition) !important;
     box-shadow: var(--shadow-sm) !important;
-    border-radius: 100px !important;
+    border-radius: 80px !important;
     position: relative !important;
-    padding: 18px !important;
+    padding: 24px !important;
     border: none !important;
     top: 2px !important;
 }
 
 .notion-callout:hover {
-    opacity: 0.4 !important;
+    opacity: 0.5 !important;
 }
 
 .notion-callout a {
@@ -267,7 +268,7 @@ p {
     display: flex !important;
     height: 100% !important;
     border: none !important;
-    width: 100% !important;
+    width: 80% !important;
     opacity: 1 !important;
     left: 0 !important;
     top: 0 !important;

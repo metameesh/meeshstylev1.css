@@ -42,8 +42,8 @@ Meesh Template
 /*-------------------------------------------*/
 
 body {
-    background: radial-gradient(50% 80% at 50% 60%, #ffd7c7be 0%, rgba(255, 211, 200, 0.04) 100%),
-    radial-gradient(70% 90% at 86% 97%, #71ad907d 0%, rgba(230, 245, 255, 0) 70%),
+    background: radial-gradient(50% 70% at 55% 70%, #f2d2c474 0%, rgba(255, 211, 200, 0.04) 100%),
+    radial-gradient(70% 90% at 86% 97%, #71ad9060 0%, rgba(230, 245, 255, 0) 70%),
     #ebebe8 !important;
     background-attachment: fixed !important;
     -webkit-animation: fadeIn 1s !important;

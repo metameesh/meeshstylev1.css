@@ -245,18 +245,18 @@ p {
 /*-------------------------------------------*/
 
 .notion-callout {
-    background: var(--color-bg-default) !important;
+    background: #50897b !important;
     transition: var(--transition) !important;
     box-shadow: var(--shadow-sm) !important;
     border-radius: 100px !important;
     position: relative !important;
-    padding: 24px !important;
+    padding: 18px !important;
     border: none !important;
     top: 2px !important;
 }
 
 .notion-callout:hover {
-    opacity: 0.6 !important;
+    opacity: 0.4 !important;
 }
 
 .notion-callout a {

@@ -245,11 +245,11 @@ p {
 /*-------------------------------------------*/
 
 .notion-callout {
-    background: var(--color-bg-default) !important;
-    color: #fff !important;
+    background: transparent !important;
     transition: var(--transition) !important;
     box-shadow: var(--shadow-sm) !important;
-    border: 2px!important;
+    border-style: solid !important;
+    border-width: 2px!important;
     border-color: #50897b !important;
     border-radius: 80px !important;
     position: relative !important;

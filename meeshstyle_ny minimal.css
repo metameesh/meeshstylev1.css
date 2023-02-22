@@ -42,8 +42,8 @@ Meesh Template
 /*-------------------------------------------*/
 
 body {
-    background: radial-gradient(50% 70% at 55% 70%, #f2d2c474 0%, rgba(255, 211, 200, 0.04) 100%),
-    radial-gradient(70% 90% at 86% 97%, #71ad9060 0%, rgba(230, 245, 255, 0) 70%),
+    background: radial-gradient(50% 70% at 55% 70%, #f2d2c435 0%, rgba(255, 211, 200, 0.04) 100%),
+    radial-gradient(50% 70% at 86% 98%, #71ad9060 0%, rgba(230, 245, 255, 0) 70%),
     #ebebe8 !important;
     background-attachment: fixed !important;
     -webkit-animation: fadeIn 1s !important;
@@ -156,8 +156,8 @@ h2 {
 }
 
 h3 {
-    font-size: 22px !important;
-    margin-bottom: 12px !important;
+    font-size: 20px !important;
+    margin-bottom: 2px !important;
 }
 
 p {
@@ -236,7 +236,7 @@ p {
     font-family: var(--font) !important;
     grid-column-start: 2 !important;
     grid-row-start: 1 !important;
-    font-size: 24px !important;
+    font-size: 20px !important;
 }
 
 .notion-collection-card__content {

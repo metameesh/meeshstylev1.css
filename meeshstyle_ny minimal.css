@@ -158,6 +158,7 @@ h2 {
 h3 {
     font-size: 20px !important;
     margin-bottom: 2px !important;
+    text-decoration: none !important;
 }
 
 p {

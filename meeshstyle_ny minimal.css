@@ -112,6 +112,14 @@ html {
     margin-bottom: 0px !important;
 }
 
+a:link {
+    text-decoration: none;
+  }
+
+a:hover {
+    color: #50897b !important;;
+  }
+
 /*-------------------------------------------*/
 /*-------------- HIDDEN CONTENT -------------*/
 /*-------------------------------------------*/
